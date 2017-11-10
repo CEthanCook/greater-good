@@ -8,6 +8,7 @@
     <form action="/insert" method="post">
       <table>
         <tr>
+          {{ csrf_field() }}
           <td>First Name : </td>
           <td><input type="text" name="firstName"></td>
         </tr>
