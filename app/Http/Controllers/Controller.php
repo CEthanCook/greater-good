@@ -19,7 +19,7 @@ class Controller extends BaseController
       $gradYear = $req->input('gradYear');
 
       $data = array('firstName'=>$firstName,'lastName'=>$lastName,'username'=>$username,
-                    'password'=>$password, ;'gradYear'=>$gradYear);
+                    'password'=>$password, 'gradYear'=>$gradYear);
 
       DB::table('STUDENT')->insert($data);
 
