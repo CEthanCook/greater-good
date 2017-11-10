@@ -9,10 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.js"></script>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.css"/>
+
 
         <!-- Styles -->
         <style>
@@ -131,8 +128,8 @@
 
                                         <div class="form-group">
                                           <!--   <div class="col-md-8 col-md-offset-4"> -->
-                                                <button type="submit" class="btn btn-primary">
-                                                    Login
+                                                <button type="submit" class="btn btn-primary" >
+                                                   <a href= '{{ URL::to('calendar') }}'> Login </a>
                                                 </button>
 
                                                 <button

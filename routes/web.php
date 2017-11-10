@@ -18,15 +18,21 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
+Route::get ('calendar', function() {
+  return view('calenderUser');
+});
 Route::get('/user', function () {
   return view('user');
 });
 Route::get('/calendarFunctions', function() {
   return view('calendarFunctions');
 });
-Route::get('/calendar', function() {
+/*Route::get('/calendar', function() {
   return view('calendarUser');
-});
+});*/
 Route::post('/insert','Controller@insert');
 Route::get('/events', 'EventController@index');
+Route::get('calendar', function()
+    {
+        return View::make('calendarUser');
+    });
