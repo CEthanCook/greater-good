@@ -17,22 +17,27 @@
     <div class="container">
       <div class="form-group">
         <div class="ButtonContainer">
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <button class="btn btn-primary" id="create"> Create New Schedule </button>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-3">
             <button class="btn btn-primary" id="make"> Edit Schedule</button>
           </div>
-          <div class="col-lg-4">
-            <button class="btn btn-primary" id="students"> Manage Students</button>
+          <div class="col-lg-3">
+            <button class="btn btn-primary" id="make">Manage Students</button>
+          </div>
+          <div class="col-lg-3x">
+            <button class="btn btn-primary" id="students">
+                 <a href='{{ URL::to('studenthome') }}' class=''> Student View </a>
+            </button>
           </div>
         </div>
           <h1><center>November </center></h1>
         <table style = "margin-top: 20px;" class="words">
           <tr>
             <td class="words col-md-1"> </td>
-            <td class="words" > </td>
-            <td class="words">0 </td>
+            <td class="words"> </td>
+            <td class="words"> </td>
             <td class="words" >1 </td>
             <td class="words" >2 </td>
             <td class="words" >3 </td>

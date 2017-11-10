@@ -15,3 +15,8 @@ td {
   height: 200px;
   border-style: solid;
 }
+a:link, a:visited, a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: auto;
+}
