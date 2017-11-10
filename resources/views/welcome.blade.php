@@ -62,17 +62,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-            .target-ratio-resize {
-	max-width: 1920px; /* actual img width */
-	max-height: 300px; /* actual img height */
-	*height: 3000px; /* actual img height - IE7 */
-	background-position: center;
-}
-.target-ratio-resize:after {
-	content: " ";
-	display: block;
-	width: 100%;
-	padding-top: 66.66%;
+            img {
+  width: auto ;
+  max-width: 50% ;
+  height: auto;
 }
         </style>
     </head>
@@ -80,7 +73,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    <img class="target-ratio-resize" src="../img/MVF-farms-logo.png" alt="Mill Village Farms">
+                    <img src="../img/MVF-farms-logo.png" alt="Mill Village Farms">
                 </div>
                 <div class="container">
                   <div class="row">
