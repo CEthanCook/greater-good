@@ -28,7 +28,7 @@
         <h3> February </h3>
         <table style = "margin-top: 20px;">
           <tr>
-            <td>1 </td>
+            <td class="words">1 </td>
             <td >2 </td>
             <td >3 </td>
             <td >4 </td>
