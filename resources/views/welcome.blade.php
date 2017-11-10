@@ -9,71 +9,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../css/style.css">
 
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            /*.links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }**/
-            a:link, a:visited, a:hover {
-                color: #ffffff;
-                text-decoration: none;
-                cursor: auto;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-            img {
-  width: auto ;
-  max-width: 50% ;
-  height: auto;
-}
-        </style>
     </head>
     <body>
       @section ('content')
@@ -133,7 +71,7 @@
 
                                         <div class="form-group">
                                           <!--   <div class="col-md-8 col-md-offset-4"> -->
-                                                <button type="submit" class="btn btn-primary" >
+                                                <button type="submit" class="btn btn-" >
                                                    <a href='{{ URL::to('calendar') }}' class=''> Login </a>
                                                 </button>
 

@@ -18,7 +18,7 @@
       <div class="form-group">
         <div class="ButtonContainer">
           <div class="col-lg-3">
-            <button class="btn btn-primary" id="create"> Create New Schedule </button>
+          <center>  <button class="btn btn-primary" id="create"> Create New Schedule </button></center>
           </div>
           <div class="col-lg-3">
             <button class="btn btn-primary" id="make"> Edit Schedule</button>
