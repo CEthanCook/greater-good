@@ -39,3 +39,7 @@ Route::get('calendar', function()
     {
         return View::make('calendarUser');
     });
+
+Route::get('/student', function() {
+  return view('student-list');
+});
