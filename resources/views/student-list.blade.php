@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="StyleSheet1.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
@@ -27,25 +26,37 @@
         </div>
         <h3> This should be a student list </h3>
         <table style = "margin-top: 20px;">
-          <tr style="border-style:solid;">
+          <tr>
+            <td style="border-style:solid; width: 700px;">
               Name: Jeremy King <br>
               Class: 11th Grade <br>
               Phone Number: 864-555-2017 <br>
+              <a href=""> View assignments </a>
+            </td>
           </tr>
-          <tr style="border-style:solid;">
-            Name: Amanda Worthing <br>
-            Class: 10th Grade <br>
-            Phone Number: 864-555-9987 <br>
+          <tr>
+            <td style="border-style:solid; width: 700px;">
+              Name: Amanda Worthing <br>
+              Class: 10th Grade <br>
+              Phone Number: 864-555-9987 <br>
+              <a href=""> View assignments </a>
+            </td>
           </tr>
-          <tr style="border-style:solid;">
-            Name: Jessica Whistle <br>
-            Class: 11th Grade <br>
-            Phone Number: 864-555-4736 <br>
+          <tr>
+            <td style="border-style:solid; width: 700px;">
+              Name: Jessica Whistle <br>
+              Class: 11th Grade <br>
+              Phone Number: 864-555-4736 <br>
+              <a href=""> View assignments </a>
+            </td>
           </tr>
-          <tr style="border-style:solid;">
-            Name: Mike Wall <br>
-            Class: 9th Grade <br>
-            Phone Number: 864-555-2398 <br>
+          <tr>
+            <td style="border-style:solid; width: 700px;">
+              Name: Mike Wall <br>
+              Class: 9th Grade <br>
+              Phone Number: 864-555-2398 <br>
+              <a href=""> View assignments </a>
+            </td>
           </tr>
         </table>
 
