@@ -25,7 +25,7 @@ function configureCalAr($month, $year){
 		$dayArray[2][0] = 1;
 	}
 	else if(!strcmp($dayOfWeek, "Wednesday")){
-		//echo "Great";
+		echo "Great";
 		$dayArray[3][0] = 1;
 	}
 	else if(!strcmp($dayOfWeek, "Thursday")){
@@ -47,7 +47,7 @@ function configureCalAr($month, $year){
 			if($dayCount <= $totalDays && $foundDayOne){
 				$dayArray[$i][$j] = $dayCount;
 				if($dayCount == $totalDays){
-					echo dayArray[3][0];
+					echo $dayArray[3][0];
 					return $dayArray;
 				}
 			}
