@@ -22,6 +22,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/user', function () {
   return view('user');
 });
-
+Route::get('/calendarFunctions', function() {
+  return view('calendarFunctions');
+});
+Route::get('/calendar', function() {
+  return view('calendarUser');
+});
 Route::post('/insert','Controller@insert');
-Route::get('events', 'EventController@index');
+Route::get('/events', 'EventController@index');
