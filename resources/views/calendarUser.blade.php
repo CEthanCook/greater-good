@@ -5,9 +5,6 @@
 <head>
     <title>Mill Village Farms </title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="StyleSheet1.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
