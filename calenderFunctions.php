@@ -1,4 +1,5 @@
-﻿function configureCalAr($month, $year){
+﻿<?php
+function configureCalAr($month, $year){
 	$foundDayOne = 0;
 	$dayCount = 0;
 	$dayArray[7][5] = 0;
@@ -38,3 +39,4 @@
 
 $dayArray[7][5] = configureCalAr(11, 2017);
 echo $dayArray[3][0];
+?>
