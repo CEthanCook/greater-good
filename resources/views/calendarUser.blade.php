@@ -26,9 +26,47 @@
             <button id="make"> Make </button>
             <button id="students"> Students </button>
         </div>
+        <table>
+          <tr>
+            <td>Sunday</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+          </tr>
+        </table>
 
 
-        <div class="calendar">
+        <!-- <div class="calendar">
             <h2 id="month">June</h2>
             <div class="row">
                 <div class="col" id="row1">
@@ -217,7 +255,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
 
     </div>
 
