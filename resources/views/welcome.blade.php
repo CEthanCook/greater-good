@@ -59,14 +59,11 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
-<<<<<<< HEAD
             .a:link, a:visited {
                 color: #ffffff;
                 text-decoration: none;
                 cursor: auto;
             }
-=======
->>>>>>> 0418e826f236bcbddadd1272058a9363cd2b7cd0
 
             .m-b-md {
                 margin-bottom: 30px;
@@ -137,11 +134,7 @@
                                         <div class="form-group">
                                           <!--   <div class="col-md-8 col-md-offset-4"> -->
                                                 <button type="submit" class="btn btn-primary" >
-<<<<<<< HEAD
                                                    <a href='{{ URL::to('calendar') }}' class=''> Login </a>
-=======
-                                                   <a href= '{{ URL::to('calendar') }}'> Login </a>
->>>>>>> 0418e826f236bcbddadd1272058a9363cd2b7cd0
                                                 </button>
 
                                                 <button
