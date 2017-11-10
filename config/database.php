@@ -41,17 +41,14 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
-            'unix_socket' => env('DB_SOCKET', ''),
-            'charset' => 'utf8mb4',
-            'collation' => 'utf8mb4_unicode_ci',
+            'host' => env('DB_HOST', 'us-cdbr-iron-east-05.cleardb.net'),
+            'database' => env('DB_DATABASE', 'heroku_5ff0ac393bc7129'),
+            'username' => env('DB_USERNAME', 'b9b78ee662810'),
+            'password' => env('DB_PASSWORD', 'c29aec12'),
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
             'prefix' => '',
-            'strict' => true,
-            'engine' => null,
+            'strict' => false,
         ],
 
         'pgsql' => [
