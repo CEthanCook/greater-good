@@ -1,0 +1,10 @@
+td {
+  border-style: solid;
+  width: 150px;
+  height: 100px;
+  text-align: right;
+}
+
+.words {
+  position: absolute;
+}
