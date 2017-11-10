@@ -1,6 +1,7 @@
-﻿<!DOCTYPE html>
-<html>
+﻿
+@extends('layouts.app')
 
+@section('content')
 <body>
 <?php
 function &configureCalAr($month, $year){
@@ -46,21 +47,21 @@ function &configureCalAr($month, $year){
 	}
 	$totalDays=cal_days_in_month(CAL_GREGORIAN,$monthNum,$year);
 	//echo $totalDays;
-	$jd=gregoriantojd(1,$monthNum,$year);  
+	$jd=gregoriantojd(1,$monthNum,$year);
 	//echo $jd;
 	$dayOfWeek = jddayofweek($jd,1);
 	//echo $dayOfWeek;
-	//decision statement for determining correct starting point 
+	//decision statement for determining correct starting point
 	if(strcmp($dayOfWeek, "Sunday") == 0){
 		$dayArray[0][0] = 1;
 	}
 	else if(strcmp($dayOfWeek, "Monday") == 0){
 		$dayArray[0][1] = 1;
 	}
-	else if(strcmp($dayOfWeek, "Tuesday") == 0){ 
+	else if(strcmp($dayOfWeek, "Tuesday") == 0){
 		$dayArray[0][2] = 1;
 	}
-	else if(strcmp($dayOfWeek, "Wednesday") == 0){ 
+	else if(strcmp($dayOfWeek, "Wednesday") == 0){
 		echo "Great";
 		$dayArray[0][3] = 1;
 		echo $dayArray[0][3];
@@ -74,7 +75,7 @@ function &configureCalAr($month, $year){
 	else if(strcmp($dayOfWeek, "Saturday") == 0){
 		$dayArray[0][6] = 1;
 	}
-	//initialize the rest of the dayArray 
+	//initialize the rest of the dayArray
 	for($i = 0; $i < 5; $i++){
 		for($j = 0; $j < 7; $j++){
 			if($dayArray[$i][$j] == 1){
@@ -92,8 +93,8 @@ function &configureCalAr($month, $year){
 	}
 }
 $dayArray[5][7] = 0;
-$dayArray = configureCalAr(November, 2017);
+$dayArray = configureCalAr('November', 2017);
 echo $dayArray[0][3];
 ?>
 </body>
-</html>
+@endsection
