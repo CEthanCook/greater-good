@@ -98,8 +98,6 @@
                 </div>
             </div>
 
-			<?php include('number.php') ?>
-
             <div class="row">
                 <div class="col" id="row2">
                     <span>Row 2</span>
