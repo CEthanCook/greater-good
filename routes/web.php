@@ -31,7 +31,7 @@ Route::post('login', array('uses' => 'LoginController@doLogin'));
 
 Route::get('/studenthome', function() {
 	return view('list-assignments');
-})
+});
 
 Route::post('/insert','Controller@insert');
 Route::get('/events', 'EventController@index');
@@ -42,4 +42,4 @@ Route::get('calendar', function()
 
 Route::get('/student', functin() {
   return view('student-list');
-})
+});
