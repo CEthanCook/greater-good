@@ -22,3 +22,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/user', function () {
   return view('user');
 });
+
+Route::post('/insert','UserController@insert');
