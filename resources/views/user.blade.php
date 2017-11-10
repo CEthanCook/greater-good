@@ -6,13 +6,7 @@
 
 </head>
 <body>
-  <script type="text/javascript">
-   $.ajaxSetup({
-       headers: {
-           'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-       }
-   });
-</script>
+   {{ csrf_field() }}
   <center>
     <form action="/insert" method="post">
       <table>
