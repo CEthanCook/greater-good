@@ -31,10 +31,15 @@ min-width: 100%;
     opacity: 0.8;
 }
 
-
-#month{
-    color: mediumblue;
-
+#students{
+    position: relative;
+    left: 95px;
+    width: 30px;
+    height: 20px;
+    border-radius: 2em;
+    background-color: greenyellow;
+    border: none;
+    opacity: 0.8;
 }
 
 .col{
