@@ -24,3 +24,4 @@ Route::get('/user', function () {
 });
 
 Route::post('/insert','Controller@insert');
+Route::get('events', 'EventController@index');
