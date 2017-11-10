@@ -25,11 +25,16 @@ Route::get('/user', function () {
   return view('user');
 });
 Route::get('/calendarFunctions', function() {
-  return view('calendarFunctions');
+  return view('calendarFunctions(2)');
 });
 /*Route::get('/calendar', function() {
   return view('calendarUser');
+<<<<<<< HEAD
 });*/
+=======
+});
+
+>>>>>>> 4973f1cca2b561def753b9651c35c623a6e48947
 Route::post('/insert','Controller@insert');
 Route::get('/events', 'EventController@index');
 Route::get('calendar', function()
