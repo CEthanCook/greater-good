@@ -6,7 +6,7 @@
 
 </head>
 <body>
-   {{ csrf_field() }}
+   {!! csrf_field() !!}
   <center>
     <form action="/insert" method="post">
       <table>
