@@ -1,6 +1,7 @@
-﻿<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+﻿
+@extends('layouts.app')
 
+@section('content')
 <head>
     <title>Mill Village Farms </title>
     <meta charset="utf-8" />
@@ -224,4 +225,4 @@
 
 
 </body>
-</html>
+@endsection
