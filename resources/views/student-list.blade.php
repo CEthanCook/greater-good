@@ -28,7 +28,9 @@
         <h3> This should be a student list </h3>
         <table style = "margin-top: 20px;">
           <tr class="student">
-
+              Name: Jeremy King <br>
+              Class: 11th Grade <br>
+              Phone Number: 864-555-2017 <br>
           </tr>
           <tr class="student">
 
