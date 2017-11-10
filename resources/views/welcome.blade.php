@@ -59,6 +59,11 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
+            .a:link, a:visited {
+                color: #ffffff;
+                text-decoration: none;
+                cursor: auto;
+            }
 
             .m-b-md {
                 margin-bottom: 30px;
@@ -129,7 +134,7 @@
                                         <div class="form-group">
                                           <!--   <div class="col-md-8 col-md-offset-4"> -->
                                                 <button type="submit" class="btn btn-primary" >
-                                                   <a href= '{{ URL::to('calendar') }}'> Login </a>
+                                                   <a href='{{ URL::to('calendar') }}' class=''> Login </a>
                                                 </button>
 
                                                 <button
