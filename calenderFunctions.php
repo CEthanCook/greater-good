@@ -1,4 +1,8 @@
-﻿<?php
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<body>
+<?php
 function configureCalAr($month, $year){
 	$foundDayOne = 0;
 	$dayCount = 0;
@@ -9,8 +13,6 @@ function configureCalAr($month, $year){
 	echo $jd;
 	$dayOfWeek = jddayofweek($jd,1);
 	echo $dayOfWeek;
-	 
-
 	<!--decision statement for determining correct starting point -->
 	if(strcmp($dayOfWeek, "Sunday")) $dayArray[0][0] = 1;
 	if(strcmp($dayOfWeek, "Monday")) $dayArray[1][0] = 1;
@@ -19,7 +21,6 @@ function configureCalAr($month, $year){
 	if(strcmp($dayOfWeek, "Thursday")) $dayArray[4][0] = 1;
 	if(strcmp($dayOfWeek, "Friday")) $dayArray[5][0] = 1;
 	if(strcmp($dayOfWeek, "Saturday")) $dayArray[6][0] = 1;
-
 	<!--initialize the rest of the dayArray -->
 	for($i = 0; $i < 7; $i++){
 		for($j = 0; $j < 5; $j++){
@@ -36,7 +37,8 @@ function configureCalAr($month, $year){
 		}
 	}
 }
-
 $dayArray[7][5] = configureCalAr(11, 2017);
 echo $dayArray[3][0];
 ?>
+</body>
+</html>
