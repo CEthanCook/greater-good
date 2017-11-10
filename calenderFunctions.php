@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <body>
 <?php
@@ -40,5 +40,6 @@ function configureCalAr($month, $year){
 $dayArray[7][5] = configureCalAr(11, 2017);
 echo $dayArray[3][0];
 ?>
+<span> <?php echo $dayArray[3][0]; ?></span>
 </body>
 </html>
