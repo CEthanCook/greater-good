@@ -30,7 +30,7 @@ Route::get('/calendarFunctions', function() {
 Route::post('login', array('uses' => 'LoginController@doLogin'));
 
 Route::get('/studenthome', function() {
-	return view('list-assignments');
+	return View::make('list-assignments');
 })
 
 Route::post('/insert','Controller@insert');
