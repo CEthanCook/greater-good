@@ -27,31 +27,35 @@
         <h3> This should be a student list </h3>
         <table style = "margin-top: 20px;">
           <tr>
-            <td style="border-style:solid;">
+            <td style="border-style:solid; width: 700px;">
               Name: Jeremy King <br>
               Class: 11th Grade <br>
               Phone Number: 864-555-2017 <br>
+              <a href=""> View assignments </a>
             </td>
           </tr>
           <tr>
-            <td style="border-style:solid;">
+            <td style="border-style:solid; width: 700px;">
               Name: Amanda Worthing <br>
               Class: 10th Grade <br>
               Phone Number: 864-555-9987 <br>
+              <a href=""> View assignments </a>
             </td>
           </tr>
           <tr>
-            <td style="border-style:solid;">
+            <td style="border-style:solid; width: 700px;">
               Name: Jessica Whistle <br>
               Class: 11th Grade <br>
               Phone Number: 864-555-4736 <br>
+              <a href=""> View assignments </a>
             </td>
           </tr>
           <tr>
-            <td style="border-style:solid;">
+            <td style="border-style:solid; width: 700px;">
               Name: Mike Wall <br>
               Class: 9th Grade <br>
               Phone Number: 864-555-2398 <br>
+              <a href=""> View assignments </a>
             </td>
           </tr>
         </table>
