@@ -23,4 +23,4 @@ Route::get('/user', function () {
   return view('user');
 });
 
-Route::post('/insert','UserController@insert');
+Route::post('/insert','Controller@insert');
