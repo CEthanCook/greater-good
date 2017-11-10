@@ -6,5 +6,6 @@ td {
 }
 
 .words {
-  position: absolute;
+  position: relative;
+  padding-bottom: 75px;
 }
