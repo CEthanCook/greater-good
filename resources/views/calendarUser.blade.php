@@ -8,21 +8,11 @@
     <link rel="stylesheet" href="StyleSheet1.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-    td {
-      border-style: solid;
-      width: 150px;
-      height: 100px;
-      position: absolute;
-      text-align: right;
-    }
-    </style>
+    <link rel="stylesheet" href="../css/style.css">
+
 </head>
 
 <body>
-
-
-
 
     <div class="container">
 
