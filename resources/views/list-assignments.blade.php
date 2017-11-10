@@ -16,7 +16,7 @@
 					"<div class='card text-center'>
 					  <div class='card-block'>
 						<h4 class='card-title'>You have an upcoming market shift</h4>
-						<p class='card-text'>In $numEvents days at $numEvents o clock.</p>
+						<p class='card-text'>In $numEvents days at $numEvents o clock</p>
 						<a class='btn btn-danger'>Request Off</a>
 					  </div>
 					</div>";
