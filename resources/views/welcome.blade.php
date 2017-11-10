@@ -9,10 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.js"></script>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.css"/>
+
 
         <!-- Styles -->
         <style>
@@ -62,6 +59,11 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
+            .a:link, a:visited {
+                color: #ffffff;
+                text-decoration: none;
+                cursor: auto;
+            }
 
             .m-b-md {
                 margin-bottom: 30px;
@@ -89,7 +91,7 @@
 
                                 <div class="panel-body">
                                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
-                                        {{ csrf_field() }}
+                                        {!! csrf_field() !!}
 
                                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                                             <label for="email" class="col-md-4 control-label">E-Mail Address</label>
@@ -131,8 +133,8 @@
 
                                         <div class="form-group">
                                           <!--   <div class="col-md-8 col-md-offset-4"> -->
-                                                <button type="submit" class="btn btn-primary">
-                                                    Login
+                                                <button type="submit" class="btn btn-primary" >
+                                                   <a href='{{ URL::to('calendar') }}' class=''> Login </a>
                                                 </button>
 
                                                 <button

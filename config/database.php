@@ -1,5 +1,7 @@
 <?php
 
+
+
 return [
 
     /*
@@ -42,7 +44,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'us-cdbr-iron-east-05.cleardb.net'),
-            'database' => env('DB_DATABASE', 'heroku_5ff0ac393bc7129'),
+            'database' => env('DB_DATABASE', 'heroku_5ff0ac393bc7128'),
             'username' => env('DB_USERNAME', 'b9b78ee662810e'),
             'password' => env('DB_PASSWORD', 'c29aec12'),
             'charset' => 'utf8',
