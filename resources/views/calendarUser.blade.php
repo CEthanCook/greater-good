@@ -28,7 +28,7 @@
         </div>
         <table>
           <tr>
-            <td>Sunday</td>
+            <td style="border-style: solid;">Sunday </td>
             <td>Monday</td>
             <td>Tuesday</td>
             <td>Wednesday</td>
