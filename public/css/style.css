@@ -8,3 +8,9 @@ td {
 .words {
   position: absolute;
 }
+
+.student {
+  width: 700px;
+  height: 200px;
+  border-style: solid;
+}
