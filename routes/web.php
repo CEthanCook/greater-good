@@ -24,9 +24,18 @@ Route::get ('calendar', function() {
 Route::get('/user', function () {
   return view('user');
 });
+
+Route::get('/studenthome', function() {
+	return View::make('list-assignments');
+});
+
 Route::post('/insert','Controller@insert');
 Route::get('/events', 'EventController@index');
 Route::get('calendar', function()
     {
         return View::make('calendarUser');
     });
+
+Route::get('/student', function() {
+  return view('student-list');
+});

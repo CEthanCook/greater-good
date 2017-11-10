@@ -9,3 +9,9 @@ td {
   position: relative;
   padding-bottom: 75px;
 }
+
+.student {
+  width: 700px;
+  height: 200px;
+  border-style: solid;
+}
