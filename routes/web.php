@@ -23,5 +23,9 @@ Route::get('/user', function () {
   return view('user');
 });
 
+Route::get('/studenthome', function() {
+	return view('list-assignments');
+})
+
 Route::post('/insert','Controller@insert');
 Route::get('events', 'EventController@index');

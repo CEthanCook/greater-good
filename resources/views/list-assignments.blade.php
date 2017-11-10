@@ -1,3 +1,6 @@
+@extends('layouts.app')
+
+@section('content')
 <html>
 	<head>
 		<link rel="stylesheet" href="/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
@@ -24,3 +27,4 @@
 		</div
 	</body>
 </html>
+@endsection		
