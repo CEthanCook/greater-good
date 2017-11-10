@@ -36,8 +36,7 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
-<<<<<<< HEAD
-    function doLogin()
+    public function doLogin()
     		{
 
     		// Creating Rules for Email and Password
@@ -75,7 +74,7 @@ class LoginController extends Controller
 
     					// validation successful
     					// do whatever you want on success
-     
+
     					}
     				  else
     					{
@@ -86,10 +85,6 @@ class LoginController extends Controller
     					}
     				}
     			}
-    		}
-=======
-
->>>>>>> 0418e826f236bcbddadd1272058a9363cd2b7cd0
     public function username() {
 	return 'username';
     }
