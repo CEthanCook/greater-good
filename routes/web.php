@@ -31,7 +31,7 @@ Route::post('login', array('uses' => 'LoginController@doLogin'));
 
 Route::get('/studenthome', function() {
 	return View::make('list-assignments');
-})
+});
 
 Route::post('/insert','Controller@insert');
 Route::get('/events', 'EventController@index');
