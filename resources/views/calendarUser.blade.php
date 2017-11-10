@@ -8,7 +8,15 @@
     <link rel="stylesheet" href="StyleSheet1.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <style>
+    .td {
+      border-style: solid;
+      width: 150px;
+      height: 100px;
+      position: absolute;
+      text-align: right;
+    }
+    </style>
 </head>
 
 <body>
@@ -30,40 +38,40 @@
         <h3> February </h3>
         <table style = "margin-top: 20px;">
           <tr>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">1 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">2 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">3 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">4 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">5 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">6 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">7 </td>
+            <td>1 </td>
+            <td >2 </td>
+            <td >3 </td>
+            <td >4 </td>
+            <td >5 </td>
+            <td >6 </td>
+            <td >7 </td>
           </tr>
           <tr>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">8 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">9 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">10 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">11 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">12 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">13 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">14 </td>
+            <td >8 </td>
+            <td >9 </td>
+            <td >10 </td>
+            <td >11 </td>
+            <td >12 </td>
+            <td >13 </td>
+            <td >14 </td>
           </tr>
           <tr>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">15 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">16 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">17 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">18 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">19 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">20 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">21 </td>
+            <td >15 </td>
+            <td >16 </td>
+            <td >17 </td>
+            <td >18 </td>
+            <td >19 </td>
+            <td >20 </td>
+            <td >21 </td>
           </tr>
           <tr>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">22 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">23 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">24 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">25 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">26 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">27 </td>
-            <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">28 </td>
+            <td >22 </td>
+            <td >23 </td>
+            <td >24 </td>
+            <td >25 </td>
+            <td >26 </td>
+            <td >27 </td>
+            <td >28 </td>
           </tr>
         </table>
 
