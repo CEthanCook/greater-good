@@ -24,7 +24,8 @@
             <button class="btn btn-primary" id="make"> Edit Schedule</button>
           </div>
           <div class="col-lg-3">
-            <button class="btn btn-primary" id="make">Manage Students</button>
+            <button class="btn btn-primary" id="make">
+               <a href='{{ URL::to('student') }}' class=''> Manage Students</button>
           </div>
           <div class="col-lg-3x">
             <button class="btn btn-primary" id="students">
