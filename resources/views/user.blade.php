@@ -11,7 +11,12 @@
                         <div class="alert alert-success">
                             {{ session('status') }}
                         </div>
+                        <?php
 
+                        $results = DB::select('select * from users');
+                        <p> $results </p>
+
+                        ?>
                     You are logged in!
                 </div>
             </div>
