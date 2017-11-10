@@ -148,7 +148,7 @@ body {font-family: Verdana, sans-serif;}
           <li>31</li>
         </ul>
 
-        <h3> February </h3>
+        <!-- <h3> February </h3>
         <table style = "margin-top: 20px;">
           <tr>
             <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">1 </td>
@@ -186,7 +186,7 @@ body {font-family: Verdana, sans-serif;}
             <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">27 </td>
             <td style="border-style: solid; padding-left: 150px; padding-bottom: 100px;">28 </td>
           </tr>
-        </table>
+        </table> -->
 
 
         <!-- <div class="calendar">
