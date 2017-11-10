@@ -28,40 +28,40 @@
         </div>
         <table>
           <tr>
-            <td style="border-style: solid;">Sunday </td>
-            <td>Monday</td>
-            <td>Tuesday</td>
-            <td>Wednesday</td>
-            <td>Thursday</td>
-            <td>Friday</td>
-            <td>Saturday</td>
+            <td style="border-style: solid; margin: 10px;">Sunday </td>
+            <td style="border-style: solid; margin: 10px;">Monday</td>
+            <td style="border-style: solid; margin: 10px;">Tuesday</td>
+            <td style="border-style: solid; margin: 10px;">Wednesday</td>
+            <td style="border-style: solid; margin: 10px;">Thursday</td>
+            <td style="border-style: solid; margin: 10px;">Friday</td>
+            <td style="border-style: solid; margin: 10px;">Saturday</td>
           </tr>
           <tr>
-            <td>Sunday</td>
-            <td>Monday</td>
-            <td>Tuesday</td>
-            <td>Wednesday</td>
-            <td>Thursday</td>
-            <td>Friday</td>
-            <td>Saturday</td>
+            <td style="border-style: solid; margin: 10px;">Sunday</td>
+            <td style="border-style: solid; margin: 10px;">Monday</td>
+            <td style="border-style: solid; margin: 10px;">Tuesday</td>
+            <td style="border-style: solid; margin: 10px;">Wednesday</td>
+            <td style="border-style: solid; margin: 10px;">Thursday</td>
+            <td style="border-style: solid; margin: 10px;">Friday</td>
+            <td style="border-style: solid; margin: 10px;">Saturday</td>
           </tr>
           <tr>
-            <td>Sunday</td>
-            <td>Monday</td>
-            <td>Tuesday</td>
-            <td>Wednesday</td>
-            <td>Thursday</td>
-            <td>Friday</td>
-            <td>Saturday</td>
+            <td style="border-style: solid; margin: 10px;">Sunday</td>
+            <td style="border-style: solid; margin: 10px;">Monday</td>
+            <td style="border-style: solid; margin: 10px;">Tuesday</td>
+            <td style="border-style: solid; margin: 10px;">Wednesday</td>
+            <td style="border-style: solid; margin: 10px;">Thursday</td>
+            <td style="border-style: solid; margin: 10px;">Friday</td>
+            <td style="border-style: solid; margin: 10px;">Saturday</td>
           </tr>
           <tr>
-            <td>Sunday</td>
-            <td>Monday</td>
-            <td>Tuesday</td>
-            <td>Wednesday</td>
-            <td>Thursday</td>
-            <td>Friday</td>
-            <td>Saturday</td>
+            <td style="border-style: solid; margin: 10px;">Sunday</td>
+            <td style="border-style: solid; margin: 10px;">Monday</td>
+            <td style="border-style: solid; margin: 10px;">Tuesday</td>
+            <td style="border-style: solid; margin: 10px;">Wednesday</td>
+            <td style="border-style: solid; margin: 10px;">Thursday</td>
+            <td style="border-style: solid; margin: 10px;">Friday</td>
+            <td style="border-style: solid; margin: 10px;">Saturday</td>
           </tr>
         </table>
 
