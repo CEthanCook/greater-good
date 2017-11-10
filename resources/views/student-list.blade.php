@@ -14,51 +14,40 @@
 <body>
 
     <div class="container">
-
-        <div class="menu">
-            <a href="" id="Home"><i class="fa fa-home" aria-hidden="true"></i></a>
-        </div>
-
-        <div class="buttons">
-            <button id="create"> Create </button>
-            <button id="make"> Make </button>
-            <button id="students"> Students </button>
-        </div>
-        <h3> This should be a student list </h3>
-        <table style = "margin-top: 20px;">
+        <center><table style = "margin-top: 20px;">
           <tr>
-            <td style="border-style:solid; width: 700px;">
-              Name: Jeremy King <br>
+            <td style="border-style:solid; width: 700px; padding:10px">
+            <center>  Name: Jeremy King <br>
               Class: 11th Grade <br>
               Phone Number: 864-555-2017 <br>
-              <a href=""> View assignments </a>
+              <a href=""> View assignments </a></center>
             </td>
           </tr>
           <tr>
-            <td style="border-style:solid; width: 700px;">
-              Name: Amanda Worthing <br>
+            <td style="border-style:solid; width: 700px; padding:10px">
+            <center>  Name: Amanda Worthing <br>
               Class: 10th Grade <br>
               Phone Number: 864-555-9987 <br>
-              <a href=""> View assignments </a>
+              <a href=""> View assignments </a></center>
             </td>
           </tr>
           <tr>
-            <td style="border-style:solid; width: 700px;">
-              Name: Jessica Whistle <br>
+            <td style="border-style:solid; width: 700px; padding:10px">
+            <center>  Name: Jessica Whistle <br>
               Class: 11th Grade <br>
               Phone Number: 864-555-4736 <br>
-              <a href=""> View assignments </a>
+              <a href=""> View assignments </a> </center>
             </td>
           </tr>
           <tr>
-            <td style="border-style:solid; width: 700px;">
-              Name: Mike Wall <br>
+            <td style="border-style:solid; width: 700px; padding:10px">
+            <center>  Name: Mike Wall <br>
               Class: 9th Grade <br>
               Phone Number: 864-555-2398 <br>
-              <a href=""> View assignments </a>
+              <a href=""> View assignments </a></center>
             </td>
           </tr>
-        </table>
+        </table></center>
 
     </div>
 
