@@ -27,19 +27,25 @@
         </div>
         <h3> This should be a student list </h3>
         <table style = "margin-top: 20px;">
-          <tr class="student">
+          <tr style="border-style:solid;">
               Name: Jeremy King <br>
               Class: 11th Grade <br>
               Phone Number: 864-555-2017 <br>
           </tr>
-          <tr class="student">
-
+          <tr style="border-style:solid;">
+            Name: Amanda Worthing <br>
+            Class: 10th Grade <br>
+            Phone Number: 864-555-9987 <br>
           </tr>
-          <tr class="student">
-
+          <tr style="border-style:solid;">
+            Name: Jessica Whistle <br>
+            Class: 11th Grade <br>
+            Phone Number: 864-555-4736 <br>
           </tr>
-          <tr class="student">
-
+          <tr style="border-style:solid;">
+            Name: Mike Wall <br>
+            Class: 9th Grade <br>
+            Phone Number: 864-555-2398 <br>
           </tr>
         </table>
 
