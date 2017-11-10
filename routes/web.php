@@ -23,10 +23,11 @@ Route::get('/user', function () {
   return view('user');
 });
 Route::get('/calendarFunctions', function() {
-  return view('calendarFunctions');
+  return view('calendarFunctions(2)');
 });
 Route::get('/calendar', function() {
   return view('calendarUser');
 });
+
 Route::post('/insert','Controller@insert');
 Route::get('/events', 'EventController@index');
