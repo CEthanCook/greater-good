@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+
 <body>
-
-
-
+	<?php include('calenderFunctions.php') ?>
+	$dayArray[5][7] = 0;
+	$dayArray = configureCalAr("November", 2017); 
 
     <div class="container">
 
@@ -28,7 +29,7 @@
 
 
         <div class="calendar">
-            <h2 id="month">June</h2>
+            <h2 id="month">November</h2>
             <div class="row">
                 <div class="col" id="row1">
                     S
@@ -59,11 +60,11 @@
                 </div>
             </div>
 
-			<?php include('number.php') ?>
+			
 
             <div class="row">
                 <div class="col" id="row2">
-                    <span>Row 2</span>
+                    <span>dayArray[3][3]</span>
                 </div>
 
                 <div class="col" id="row2">
@@ -215,13 +216,8 @@
                     <span> </span>
                 </div>
             </div>
-
         </div>
-
     </div>
-
-
-
 
 </body>
 </html>

@@ -91,9 +91,7 @@ function &configureCalAr($month, $year){
 		}
 	}
 }
-$dayArray[5][7] = 0;
-$dayArray = configureCalAr(November, 2017);
-echo $dayArray[0][3];
+
 ?>
 </body>
 </html>
