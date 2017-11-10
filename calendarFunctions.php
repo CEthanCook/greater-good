@@ -1,12 +1,28 @@
 ﻿<!DOCTYPE html>
 <html>
-
 <body>
 <?php
-function configureCalAr($month, $year){
+/*
+abstract class monthsToInt{
+	const January = 1;
+	const Febuary = 2;
+	const March = 3;
+	const April = 4;
+	const May = 5;
+	const June = 6;
+	const July = 7;
+	const August = 8;
+	const September = 9;
+	const October = 10;
+	const November = 11;
+	const December = 12;
+}
+*/
+function &configureCalAr($month, $year){
 	$foundDayOne = 0;
 	$dayCount = 0;
-	$dayArray[7][5] = 0;
+	$dayArray[5][7] = 0;
+
 	$totalDays=cal_days_in_month(CAL_GREGORIAN,$month,$year);
 	//echo $totalDays;
 	$jd=gregoriantojd(1,$month,$year);  
@@ -19,44 +35,53 @@ function configureCalAr($month, $year){
 		$dayArray[0][0] = 1;
 	}
 	else if(!strcmp($dayOfWeek, "Monday")){
-		$dayArray[1][0] = 1;
+		$dayArray[0][1] = 1;
 	}
 	else if(!strcmp($dayOfWeek, "Tuesday")){ 
-		$dayArray[2][0] = 1;
+		$dayArray[0][2] = 1;
 	}
-	else if(!strcmp($dayOfWeek, "Wednesday")){
+	else if($dayOfWeek == "Wednesday")){
 		echo "Great";
-		$dayArray[3][0] = 1;
+		$dayArray[0][3] = 1;
+		//echo $dayArray[0][3]; 
 	}
 	else if(!strcmp($dayOfWeek, "Thursday")){
-		$dayArray[4][0] = 1;
+		$dayArray[0][4] = 1;
 	}
 	else if(!strcmp($dayOfWeek, "Friday")){
-		$dayArray[5][0] = 1;
+		$dayArray[0][5] = 1;
 	}
 	else if(!strcmp($dayOfWeek, "Saturday")){
-		$dayArray[6][0] = 1;
+		$dayArray[0][6] = 1;
 	}
 	//initialize the rest of the dayArray 
-	for($i = 0; $i < 7; $i++){
-		for($j = 0; $j < 5; $j++){
+	for($i = 0; $i < 5; $i++){
+		for($j = 0; $j < 7; $j++){
 			if($dayArray[$i][$j] == 1){
 				$dayCount = 1;
 				$foundDayOne = 1;
 			}
-			if($dayCount <= $totalDays && $foundDayOne){
+			else if($dayCount <= $totalDays && $foundDayOne){
+			    $dayCount++;
 				$dayArray[$i][$j] = $dayCount;
 				if($dayCount == $totalDays){
-					echo $dayArray[3][0];
+					//echo $dayArray[0][3];
 					return $dayArray;
 				}
 			}
 		}
 	}
 }
-$dayArray[7][5] = configureCalAr(11, 2017);
-echo $dayArray[3][0];
+$dayArray[5][7];
+$dayArray = configureCalAr(November, 2017);
+echo $dayArray[0][3];
+for($i = 0; $i < 5; $i++){
+	for($j = 0; $j < 7; $j++){
+		if($dayArray[$i][$j] == 30){
+			echo "well done";
+		}
+	}
+}
 ?>
-<span> <?php echo $dayArray[3][0]; ?></span>
 </body>
 </html>
