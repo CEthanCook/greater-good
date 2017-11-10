@@ -2,13 +2,14 @@
 <html>
 <head>
     <title>Insert Student</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
 </head>
 <body>
   <center>
     <form action="/insert" method="post">
       <table>
         <tr>
-          {!! csrf_field() !!}
           <td>First Name : </td>
           <td><input type="text" name="firstName"></td>
         </tr>
