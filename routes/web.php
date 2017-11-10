@@ -27,7 +27,7 @@ Route::get('/user', function () {
 Route::get('/calendarFunctions', function() {
   return view('calendarFunctions(2)');
 });
-Route::post('login', array('uses' => 'LoginController@doLogin'));
+Route::post('login', array('uses' => 'Auth/LoginController@doLogin'));
 Route::post('/insert','Controller@insert');
 Route::get('/events', 'EventController@index');
 Route::get('calendar', function()
